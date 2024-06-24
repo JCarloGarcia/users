@@ -9,5 +9,26 @@ h1 {
   text-align: center;
   color: #333;
 }
+.listaUsuarios {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listaUsuarios li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.listaUsuarios img {
+  width: 100%;
+}
+
+
 
 
